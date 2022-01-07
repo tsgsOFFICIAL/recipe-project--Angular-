@@ -1,0 +1,25 @@
+a {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a div:first-child {
+    max-width: 75%;
+}
+
+a div:first-child h4 {
+    font-size: 1.9rem;
+}
+
+a div:first-child p {
+    font-size: 1.4rem;
+}
+
+img {
+    display: inline-block;
+    max-width: 11em;
+    max-height: 100%;
+    border-radius: .5rem;
+}
