@@ -1,0 +1,20 @@
+<!--
+    full width image
+-->
+<img src="" alt="">
+
+<h2>Recipe Name</h2>
+
+<div class="dropdown container">
+    <button type="button" class="dropdown collapsible" (click)="ChangeState($event)" [ngClass]="{active: active}">Manage Recipe</button>
+    <div class="dropdown content">
+        <a href="#">To Shopping List <img src="./assets/img/cart-arrow-down.svg"></a>
+        <a href="#">Edit Recipe <img src="./assets/img/pencil.svg"></a>
+        <a href="#">Delete Recipe <img src="./assets/img/trash-can.svg"></a>
+    </div>
+</div>
+
+<section>
+    <p>Description</p>
+    <p>Ingredients</p>
+</section>

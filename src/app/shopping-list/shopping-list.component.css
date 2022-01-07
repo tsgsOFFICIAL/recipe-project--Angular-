@@ -1,0 +1,15 @@
+ul {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem;
+    margin-top: 2.5rem;
+    margin-left: calc(var(--body-padding) / 2);
+    border: 1px solid #777;
+    border-radius: .5rem;
+    width: 39vw;
+    padding: 1rem;
+}
+
+ul a {
+    font-size: 1.6rem;
+}

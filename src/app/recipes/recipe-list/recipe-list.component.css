@@ -1,0 +1,49 @@
+.container {
+    max-width: 40vw;
+    margin-left: var(--body-padding);
+}
+
+.container button {
+    margin-bottom: 2.5rem;
+    background: green;
+    border: none;
+    padding: 1rem 3rem;
+    border-radius: .5rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.container section {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 4rem;
+    border: 1px solid #777;
+    border-radius: .5rem;
+    padding: 1rem;
+}
+
+.container section a {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container section a div:first-child {
+    max-width: 75%;
+}
+
+.container section a div:first-child h4 {
+    font-size: 1.9rem;
+}
+
+.container section a div:first-child p {
+    font-size: 1.4rem;
+}
+
+img {
+    display: inline-block;
+    max-width: 11em;
+    max-height: 100%;
+    border-radius: .5rem;
+}

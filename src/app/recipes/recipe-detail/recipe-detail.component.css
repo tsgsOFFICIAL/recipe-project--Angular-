@@ -1,0 +1,35 @@
+h2 {
+    font-size: 4.2rem;
+}
+
+.dropdown.container {
+    max-width: fit-content;
+}
+
+button.dropdown {
+    font-size: 1.9rem;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+    padding: 1rem 3rem;
+}
+
+button.dropdown+div.dropdown a {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: .5rem;
+    font-size: 1.6rem;
+    margin-top: .5rem;
+}
+
+button.dropdown+div.dropdown a img {
+    width: 1em;
+    filter: invert(100%);
+}
+
+section p {
+    font-size: 1.4rem;
+}

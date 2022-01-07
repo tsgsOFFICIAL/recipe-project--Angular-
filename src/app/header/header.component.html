@@ -1,0 +1,16 @@
+<nav>
+    <a href="/" class="brand-title">Recipe Book</a>
+
+    <ul class="navbar center">
+        <li><a (click)="onSelect('recipes')">Recipes</a></li>
+        <li><a (click)="onSelect('shopping')">Shopping List</a></li>
+    </ul>
+
+    <div class="dropdown container">
+        <button type="button" class="dropdown collapsible" (click)="ChangeState($event)" [ngClass]="{active: active}">Manage</button>
+        <div class="dropdown content">
+            <a href="#">Save Data <img src="./assets/img/circle-arrow-up.svg"></a>
+            <a href="#">Fetch Data <img src="./assets/img/circle-arrow-down.svg"></a>
+        </div>
+    </div>
+</nav>

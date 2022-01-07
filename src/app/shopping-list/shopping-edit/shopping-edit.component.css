@@ -1,0 +1,60 @@
+form {
+    width: 40vw;
+    margin-left: calc(var(--body-padding) / 2);
+    margin-top: 3rem;
+}
+
+form span.inputs {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 3rem;
+}
+
+label {
+    font-size: 1.5rem;
+}
+
+form span.inputs input {
+    color: #111;
+    padding: 1rem 3rem;
+    border-radius: .5rem;
+}
+
+form span.inputs input[type="number"] {
+    width: 50%;
+}
+
+form section.form-group {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+}
+
+form button {
+    border-radius: .5rem;
+    border: none;
+    padding: 1rem 3rem;
+    color: ghostwhite;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+form span.buttons {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+button.add {
+    background-color: limegreen;
+}
+
+button.remove {
+    background-color: red;
+}
+
+button.clear {
+    background-color: dodgerblue;
+}
