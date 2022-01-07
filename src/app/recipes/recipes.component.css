@@ -6,4 +6,5 @@
 .container app-recipe-detail {
     flex-grow: 1;
     padding: 0 var(--body-padding);
+    max-width: 60vw;
 }

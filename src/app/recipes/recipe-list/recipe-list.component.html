@@ -2,8 +2,6 @@
     <button type="button">New Recipe</button>
 
     <section>
-        <app-recipe-item *ngFor="let recipeEl of recipes" [recipe]="recipeEl"></app-recipe-item>
+        <app-recipe-item *ngFor="let recipeEl of recipes" [recipe]="recipeEl" (recipeSelected)="onRecipeSelected(recipeEl)"></app-recipe-item>
     </section>
 </div>
-
-<!-- <app-recipe-item></app-recipe-item> -->

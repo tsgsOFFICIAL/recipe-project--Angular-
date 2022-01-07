@@ -1,9 +1,6 @@
-<!--
-    full width image
--->
-<img src="" alt="">
+<img [src]="recipe.imagePath" alt="">
 
-<h2>Recipe Name</h2>
+<h2>{{ recipe.name }}</h2>
 
 <div class="dropdown container">
     <button type="button" class="dropdown collapsible" (click)="ChangeState($event)" [ngClass]="{active: active}">Manage Recipe</button>
@@ -15,6 +12,6 @@
 </div>
 
 <section>
-    <p>Description</p>
+    <p>{{ recipe.description }}</p>
     <p>Ingredients</p>
 </section>
